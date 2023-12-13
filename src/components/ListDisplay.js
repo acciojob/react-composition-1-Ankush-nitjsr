@@ -22,7 +22,7 @@ const listData = [
 // };
 
 const ListDisplay = () => {
-  const [selectedList, setSelectedList] = useState("");
+  const [selectedList, setSelectedList] = useState(listData[0]);
 
   const showDetails = (item) => {
     setSelectedList(item);
